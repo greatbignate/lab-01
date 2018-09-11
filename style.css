@@ -1,32 +1,68 @@
+
 div {
   border: 1px solid black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   
+  body{
+    background-color: black;
+  }
+  div p {
+    margin: 10px;
+    float: left;
+  }
+  div#a{
+    width: 478px;
+    height: 73px;
+    background-color: pink;
+  }
+  div#b{
+    width: 478px;
+    height: 148px;
+    background-color: lightsalmon;
+  }
+  div#c{
+    width: 478px;
+    height: 123px;
+    background-color: yellow;
+  }
+  div#d{
+    width: 478px;
+    height: 123px;
+    background-color: lightgreen;
+  }  
   div#e {
     float: left;
+    width:49.4%;
+    height: 248px;
+    background-color: turquoise;
   }
   div#f{
     float:right;
+    width: 49.4%;
+    height: 248px;
+    background-color: skyblue;
   }
   div#g{
     clear:both;
     float:left;
-  }
-  div#g p {
-    margin: 10px;
-    color: pink;
+    width:49.4%;
+    height: 248px;
+    background-color: royalblue;
   }
   div#h {
     float:right;
-  }
-  div#h p {
-    margin: 10px;
-    color: pink;
+    width:49.4%;
+    height: 248px;
+    background-color: violet;
   }
   div#i{
     clear:both;
+    width: 478px;
+    height: 78px;
+    background-color: lightslategray;
   }
 }
+
