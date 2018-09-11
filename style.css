@@ -1,0 +1,32 @@
+div {
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+  
+  div#e {
+    float: left;
+  }
+  div#f{
+    float:right;
+  }
+  div#g{
+    clear:both;
+    float:left;
+  }
+  div#g p {
+    margin: 10px;
+    color: pink;
+  }
+  div#h {
+    float:right;
+  }
+  div#h p {
+    margin: 10px;
+    color: pink;
+  }
+  div#i{
+    clear:both;
+  }
+}
